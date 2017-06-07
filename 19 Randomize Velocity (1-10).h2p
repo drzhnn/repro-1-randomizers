@@ -1,0 +1,44 @@
+#defaults=no
+
+<?
+
+int m = Global.Parameter[110];
+int s;
+int l;
+int c = 0;
+int x;
+
+int P[64];
+
+for (int i = 0; i < 32; i++) {
+	P[i] = 147 + c;
+	c = c + 1;
+}
+
+c = 0;
+for (int i = 32; i < 64; i++) {
+	P[i] = 251 + c;
+	c = c + 1;
+}
+
+if (m == 0) {
+	s = 0;
+	l = 32;
+}
+
+if (m == 1) {
+	s = 32;
+	l = 64;
+}
+
+if (m == 2) {
+	s = 0;
+	l = 64;
+}
+
+for (int i = s; i < l; i++) {
+	x = P[i];
+	Global.Parameter[x] = rand(1, 10);
+}
+
+?>

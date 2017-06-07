@@ -1,0 +1,13 @@
+#defaults=no
+
+<?
+
+for (int i = 179; i <= 210; i++) {
+	Global.Parameter[i] = Global.Parameter[i].min;
+}
+
+for (int i = 283; i <= 314; i++) {
+	Global.Parameter[i] = Global.Parameter[i].min;
+}
+
+?>

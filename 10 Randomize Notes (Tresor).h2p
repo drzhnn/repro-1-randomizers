@@ -1,0 +1,56 @@
+#defaults=no
+
+<?
+int N[8] = {-12, 0, -3, 9, 12, 14, 18, 24};
+
+int aa = N[rand(0, 2)];
+int bb = N[rand(2, 4)];
+int cc = N[rand(3, 5)];
+int dd = N[rand(2, 8)];
+
+int A[8] = {aa, bb, cc, aa, bb, cc, cc, dd};
+int m = Global.Parameter[110];
+int s;
+int l;
+int c = 0;
+int x;
+
+int P[64];
+
+for (int i = 0; i < 32; i++) {
+	P[i] = 115 + c;
+	c = c + 1;
+}
+
+c = 0;
+for (int i = 32; i < 64; i++) {
+	P[i] = 219 + c;
+	c = c + 1;
+}
+
+if (m == 0) {
+	s = 0;
+	l = 32;
+}
+
+if (m == 1) {
+	s = 32;
+	l = 64;
+}
+
+if (m == 2) {
+	s = 0;
+	l = 64;
+}
+
+for (int i = s; i < l; i++) {
+	x = P[i];
+	if (c < 7) {
+		c = c + 1;
+	} else {
+		c = 0;
+	}
+	Global.Parameter[x] = A[c];
+}
+
+?>

@@ -1,0 +1,30 @@
+#defaults=no
+
+<?
+
+int a = Global.Parameter[114];
+int b = Global.Parameter[218];
+int l = a + b;
+
+int ar = rand(1, l);
+
+if (l == 2)
+{
+	l = 8;
+	ar = rand(1, 8);
+}
+
+if (ar == a)
+{
+	if (ar == 1)
+	{
+		ar = ar + 1;
+	} else {
+		ar = ar - 1;
+	}
+}
+
+Global.Parameter[114] = ar;
+Global.Parameter[218] = l - ar;
+
+?>
