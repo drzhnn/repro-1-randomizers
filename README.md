@@ -1,5 +1,12 @@
 # Pattern randomizer presets for u-he Repro-1
 
+---
+**DEPRECATED.**  
+
+**These scripts work only in Repro-1 build r5332.**
+
+---
+
 Here's a small collection of scripted presets that should make working with patterns in [Repro-1](http://www.u-he.com/cms/repro-1) a little bit more joyful. 36 presets in total.
 
 `01 Enable Arp Mode.h2p`  
