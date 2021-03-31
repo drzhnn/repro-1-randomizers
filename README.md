@@ -1,9 +1,10 @@
 # Pattern randomizer presets for u-he Repro-1
 
 ---
-**DEPRECATED.**  
 
-**These scripts work only in Repro-1 build r5332.**
+**Updated to work with any Repro-1 version**  
+
+Tested in Repro-1 1.1.1 r11152
 
 ---
 
