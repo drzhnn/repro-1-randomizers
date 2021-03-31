@@ -2,8 +2,8 @@
 
 <?
 
-int a = Global.Parameter[114];
-int b = Global.Parameter[218];
+int a = Pattern1.NumberofActiveSteps;
+int b = Pattern2.NumberofActiveSteps;
 int l = a + b;
 
 int ar = rand(1, l);
@@ -24,7 +24,7 @@ if (ar == a)
 	}
 }
 
-Global.Parameter[114] = ar;
-Global.Parameter[218] = l - ar;
+Pattern1.NumberofActiveSteps = ar;
+Pattern2.NumberofActiveSteps = l - ar;
 
 ?>

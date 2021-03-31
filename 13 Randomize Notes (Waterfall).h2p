@@ -13,7 +13,7 @@ int gg = N[rand(1, 4)];
 int hh = N[rand(0, 0)];
 
 int A[8] = {aa, bb, cc, dd, ee, ff, gg, hh};
-int m = Global.Parameter[110];
+
 int s;
 int l;
 int c = 0;
@@ -21,28 +21,31 @@ int x;
 
 int P[64];
 
+int p1s1 = Pattern1.Step_1_Note.id;
+int p2s1 = Pattern2.Step_1_Note.id;
+
 for (int i = 0; i < 32; i++) {
-	P[i] = 115 + c;
+	P[i] = p1s1 + c;
 	c = c + 1;
 }
 
 c = 0;
 for (int i = 32; i < 64; i++) {
-	P[i] = 219 + c;
+	P[i] = p2s1 + c;
 	c = c + 1;
 }
 
-if (m == 0) {
+if (Sequencer.Pattern == 0) {
 	s = 0;
 	l = 32;
 }
 
-if (m == 1) {
+if (Sequencer.Pattern == 1) {
 	s = 32;
 	l = 64;
 }
 
-if (m == 2) {
+if (Sequencer.Pattern == 2) {
 	s = 0;
 	l = 64;
 }

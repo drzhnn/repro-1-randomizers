@@ -3,25 +3,21 @@
 <?
 
 int T[2] = {0, 2};
-int r;
-int a;
 
-Global.Parameter[81] = 19;
-Global.Parameter[84] = 0;
-Global.Parameter[106] = 1;
-Global.Parameter[109] = 0;
+HostClock.TimeBase = 19; // 0 = 1/1, ... 16 = 1/8, 19 = 1/16, etc
 
-r = rand(0, 2);
-a = T[r];
+Clock.Source = 0; // 0 = Clock, 1 = Key, 2 = LFO
 
-Global.Parameter[107] = a;
+Sequencer.Status = 0; // 0 = Play, 1 = Off, 2 = Rec
 
-if (Global.Parameter[114] == 1) {
-	Global.Parameter[114] = 16;
+Arpeggiator.Status = T[rand(0, 2)];
+
+if (Pattern1.NumberofActiveSteps == 1) {
+ Pattern1.NumberofActiveSteps = 16;
 }
 
-if (Global.Parameter[218] == 1) {
-	Global.Parameter[218] = 16;
+if (Pattern2.NumberofActiveSteps == 1) {
+	Pattern2.NumberofActiveSteps = 16;
 }
 
 ?>

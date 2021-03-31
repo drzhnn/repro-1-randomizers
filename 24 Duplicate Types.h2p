@@ -7,19 +7,23 @@ int l;
 int c = 0;
 int x;
 
-int a = Global.Parameter[114];
-int b = Global.Parameter[218];
+int a = Pattern1.NumberofActiveSteps;
+int b = Pattern2.NumberofActiveSteps;
 
 int P[64];
 
+int p1t1 = Pattern1.Step_1_Type.id;
+int p2t1 = Pattern2.Step_1_Type.id;
+
+
 for (int i = 0; i < 32; i++) {
-	P[i] = 179 + c;
+	P[i] = p1t1 + c;
 	c = c + 1;
 }
 
 c = 0;
 for (int i = 32; i < 64; i++) {
-	P[i] = 283 + c;
+	P[i] = p2t1 + c;
 	c = c + 1;
 }
 
@@ -37,11 +41,11 @@ if (Sequencer.Pattern == 0) {
 		}
 	}
 
-	if (Global.Parameter[114] <= 16) {
+	if (Pattern1.NumberofActiveSteps <= 16) {
 		a *= 2;
 	}
 	
-	Global.Parameter[114] = a;
+	Pattern1.NumberofActiveSteps = a;
 }
 
 if (Sequencer.Pattern == 1) {
@@ -57,11 +61,11 @@ if (Sequencer.Pattern == 1) {
 		}
 	}
 
-	if (Global.Parameter[218] <= 16) {
+	if (Pattern2.NumberofActiveSteps <= 16) {
 		b *= 2;
 	}
 
-	Global.Parameter[218] = b;
+	Pattern2.NumberofActiveSteps = b;
 }
 
 ?>

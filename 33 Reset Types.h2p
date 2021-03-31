@@ -2,11 +2,17 @@
 
 <?
 
-for (int i = 179; i <= 210; i++) {
+int p1t1 = Pattern1.Step_1_Type.id;
+int p1t32 = Pattern1.Step_32_Type.id;
+int p2t1 = Pattern2.Step_1_Type.id;
+int p2t32 = Pattern2.Step_32_Type.id;
+
+
+for (int i = p1t1; i <= p1t32; i++) {
 	Global.Parameter[i] = Global.Parameter[i].min;
 }
 
-for (int i = 283; i <= 314; i++) {
+for (int i = p2t1; i <= p2t32; i++) {
 	Global.Parameter[i] = Global.Parameter[i].min;
 }
 
