@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Activates both Arpeggiator and Sequencer in one go. Turns currently loaded preset into a sequenced one, while keeping all other synth settings intact.'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?

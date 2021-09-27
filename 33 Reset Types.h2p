@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Reset Type values in both patterns to "Note on".'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?

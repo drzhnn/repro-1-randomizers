@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Note randomizer. Generates random notes.'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?

@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Reset Note values in active pattern to 0.'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?

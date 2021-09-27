@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Note randomizer. Generates a different set of notes from predefined scale. The scale is: -12, -5, 0, 0, 7, 12, 19, 24'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?

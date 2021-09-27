@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Tries to duplicate Velocity values of the active steps in the pattern. Does nothing if there is not enough space (if the pattern is more than 16 steps).'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?

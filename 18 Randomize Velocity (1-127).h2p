@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Velocity randomizer. Range: 1-127.'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?

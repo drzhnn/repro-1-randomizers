@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Randomizes the number of active steps in each pattern. If both patterns are active, the total number of steps will be preserved.'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?

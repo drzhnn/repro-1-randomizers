@@ -1,3 +1,15 @@
+/*@Meta
+
+Bank:
+'Randomizers'
+
+Description:
+'Type randomizer. Chooses between "Note on" and "Tied".'
+
+Categories:
+'Other:Other'
+
+*/
 #defaults=no
 
 <?
