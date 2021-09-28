@@ -4,7 +4,7 @@ This is a small collection of scripted presets that should make working with pat
 
 ## Installation
 
-Download [latest release](https://api.github.com/repos/drzhnn/repro-1-randomizers/releases/latest/repro-1-randomizers.zip").
+Download [latest release](https://github.com/drzhnn/repro-1-randomizers/releases/latest/download/repro-1-randomizers.zip).
 
 Copy `Randomizers` folder to your Repro-1 presets location:
 
