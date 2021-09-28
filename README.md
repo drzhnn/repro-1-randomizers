@@ -1,18 +1,27 @@
 # Pattern randomizer presets for u-he Repro-1
 
----
+This is a small collection of scripted presets that should make working with patterns in [Repro-1](http://www.u-he.com/cms/repro-1) a little bit more joyful.
 
-**Updated to work with any Repro-1 version**  
+## Installation
 
-Tested in Repro-1 1.1.1 r11152
+Download [latest release](https://api.github.com/repos/drzhnn/repro-1-randomizers/releases/latest/repro-1-randomizers.zip").
 
----
+Copy `Randomizers` folder to your Repro-1 presets location:
 
-Here's a small collection of scripted presets that should make working with patterns in [Repro-1](http://www.u-he.com/cms/repro-1) a little bit more joyful. 36 presets in total.
+ - Windows: `...\VstPlugins\u-he\Repro-1.data\Presets\Repro-1\`
+ - Mac: `~/Library/Audio/Presets/u-he/Repro-1/`
+
+All presets are properly tagged and you can find them in the Preset browser, either in `Randomizers` folder or in `Randomizers` bank.
+
+## How it works
+
+Say, you have a preset in Repro-1 that you like and now you'd want an arpeggiated version of it. But you don't know where to start or don't feel too excited about programming patterns manually on the Repro's Sequencer page. Here's where these scripted randomizer presets come in. You load them just like any other regular preset from the Presets browser page, but they don't change your existing sound. Instead, only specific, Sequencer related parameters will be affected. Each time you load a scripted preset, it will generate a different result.
+
+## Description
 
 `01 Enable Arp Mode.h2p`  
 
-Enables Arpeggiator and Sequencer. Effectively turns any preset into a sequenced one, while keeping all other synth settings intact.
+This is a helper script. It simply enables Arpeggiator and Sequencer and turns any preset into a sequenced one, while keeping all other synth settings intact.
 
 Next is a bunch of note randomizers. Each time you run these presets they will generate a different set of notes from predefined scales. Each preset has its own feel, and some of them are more random then the others:  
 
