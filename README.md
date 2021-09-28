@@ -1,6 +1,6 @@
 # Pattern randomizer presets for u-he Repro-1
 
-This is a small collection of scripted presets that should make working with patterns in [Repro-1](http://www.u-he.com/cms/repro-1) a little bit more joyful.
+This is a small collection of scripted presets that should make working with patterns in [Repro-1](https://u-he.com/products/repro/) a little bit more joyful.
 
 ## Installation
 
